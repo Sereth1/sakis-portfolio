@@ -9,11 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        mintGreen: "rgba(224, 255, 239, 1)", // Soft mint-green
+        background: "var(--background)", // You can still keep these variables if needed
         foreground: "var(--foreground)",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
